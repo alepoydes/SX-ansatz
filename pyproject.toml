@@ -6,12 +6,5 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "marimo>=0.21.1",
-    "topovec[mgl]>=0.1.4",
+    "topovec[mgl,marimo]>=0.1.4",
 ]
-
-[tool.uv.sources]
-topovec = { index = "testpypi" }
-
-[[tool.uv.index]]
-name = "testpypi"
-url = "https://test.pypi.org/simple"

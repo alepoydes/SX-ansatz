@@ -389,7 +389,7 @@ def _(render_two_slice_panels, s1_nn, system):
 
 @app.cell
 def _(s1_nn, tv):
-    # tv.marimo.inspect(s1_nn)
+    tv.marimo.inspect(s1_nn)
     return
 
 
@@ -425,7 +425,7 @@ def _(render_two_slice_panels, s2_nn, system):
 
 
 @app.cell
-def _(s2_nn, tv):
+def _():
     # tv.marimo.inspect(s2_nn)
     return
 
@@ -463,7 +463,7 @@ def _(render_two_slice_panels, s3_nn, system):
 
 @app.cell
 def _(s3_nn, tv):
-    # tv.marimo.inspect(s3_nn)
+    tv.marimo.inspect(s3_nn)
     return
 
 
