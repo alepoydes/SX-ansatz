@@ -13,7 +13,7 @@ The notebooks describe the same objects in two different ways:
 Install the following tools first:
 
 - `git`
-- `uv`
+- `uv` (installation instructions: [official docs](https://docs.astral.sh/uv/getting-started/installation/))
 
 ## Clone the repository
 

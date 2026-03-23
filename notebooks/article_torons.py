@@ -399,8 +399,8 @@ def _(render_two_slice_panels, s3_nn, system):
 
 
 @app.cell
-def _():
-    # tv.marimo.inspect(s3_nn)
+def _(s3_nn, tv):
+    tv.marimo.inspect(s3_nn)
     return
 
 

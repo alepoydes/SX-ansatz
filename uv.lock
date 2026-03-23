@@ -764,7 +764,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "marimo", specifier = ">=0.21.1" },
-    { name = "topovec", extras = ["mgl", "marimo"], specifier = ">=0.1.4" },
+    { name = "topovec", extras = ["mgl", "marimo"], specifier = ">=0.1.5" },
 ]
 
 [[package]]
@@ -778,7 +778,7 @@ wheels = [
 
 [[package]]
 name = "topovec"
-version = "0.1.4"
+version = "0.1.5"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "numpy" },
@@ -786,9 +786,9 @@ dependencies = [
     { name = "rich" },
     { name = "scipy" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/a9/24/a21b58130419ffaa542da8a19aa6f57a40a283abf9b9532b4a7b71b10fe2/topovec-0.1.4.tar.gz", hash = "sha256:3fb868e6c9c2df0cc668f689705e5960b6ed956f7aa1be33aba8b3911b19c919", size = 1299743, upload-time = "2026-03-23T08:24:42.67Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/1c/ea/4679cb82366119645d31a16d81e649fea9e9563cd6160fdff997b252ea6b/topovec-0.1.5.tar.gz", hash = "sha256:5245fc5b22afc4cd4e34e1b18195ce19c6771fc6427e3b139e2a1f8e1ea7624d", size = 324410, upload-time = "2026-03-23T10:08:58.539Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/12/68/71f4abe4d4c3f0243867416db4f33d464fd8d735dff759c13c51f5e264bf/topovec-0.1.4-py3-none-any.whl", hash = "sha256:4607df809887bf4088dbccceb3337fc77b31f652fc3917d6696b9d55260cd01b", size = 149462, upload-time = "2026-03-23T08:24:40.373Z" },
+    { url = "https://files.pythonhosted.org/packages/17/14/4402e8038879be98a814645e9a7d5c91552fa64aeb7e5c0303b17b1bfdd3/topovec-0.1.5-py3-none-any.whl", hash = "sha256:2c58585afad16574685b19e2982a641588aa555bb21fcefbdd33b0dd104cc2e3", size = 150157, upload-time = "2026-03-23T10:08:56.578Z" },
 ]
 
 [package.optional-dependencies]
